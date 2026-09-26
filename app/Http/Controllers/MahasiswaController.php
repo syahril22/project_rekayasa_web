@@ -8,11 +8,11 @@ class MahasiswaController extends Controller
     public function index()
     {
         $mahasiswa = [
-            'nim' => '251011700310',
-            'nama' => 'Adam Burhanudin Lubis',
+            'nim' => '251011700247',
+            'nama' => 'Syahril Sobirin',
             'prodi' => 'Sistem Informasi',
             'kampus' => 'Universitas Pamulang',
-            'email' => 'adamburhan4@gmail.com',
+            'email' => 'syahril@gmail.com',
             'status' => 'aktif',
         ];
 

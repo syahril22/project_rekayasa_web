@@ -14,7 +14,7 @@
 
 <body class="bg-light d-flex flex-column min-vh-100">
 
-    <nav class="navbar navbar-dark bg-primary">
+    <nav class="navbar navbar-primary bg-primary">
         <div class="container">
             <a class="navbar-brand" href="#">
                 UNPAM - Profile Mahasiswa
@@ -28,11 +28,11 @@
 
                 <div class="card mt-5">
 
-                    <div class="card-header bg-warning text-white text-center py-4">
+                    <div class="card-header bg-primary text-white text-center py-4">
 
                         <div class="d-flex justify-content-center mb-3">
                             <img
-                                src="img/gambar.webp"
+                                src="img/profile.jpg"
                                 class="rounded-circle img-thumbnail shadow-sm"
                                 style="width: 120px; height: 120px; object-fit: cover;"
                                 alt="">
