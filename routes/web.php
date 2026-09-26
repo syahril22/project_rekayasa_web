@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-route::get('/Mahasiswa', [MahasiswaController::class,'index']);
+route::get('/', [MahasiswaController::class,'index']);
 // Route::get('/', function () {
 //     return view('Mahasiswa');
 // });
