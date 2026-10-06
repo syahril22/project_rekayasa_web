@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\MahasiswaController;
+use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -12,5 +13,6 @@ Route::get('/about', function () {
 });
 
 route::get('/profile', [MahasiswaController::class,'index']);
+
 
 ?>

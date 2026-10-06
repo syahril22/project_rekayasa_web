@@ -133,7 +133,6 @@
     </main>
 
 
-
     @include('partials.footer')
 
 </body>
