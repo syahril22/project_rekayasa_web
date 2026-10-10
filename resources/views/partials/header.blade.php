@@ -18,6 +18,9 @@
                     <li class="nav-item">
                         <a href="{{ url('/profile')}}" class="nav-link">Profile</a>
                     </li>
+                        <li class="nav-item">
+                        <a href="{{ url('/project')}}" class="nav-link">Project</a>
+                    </li>
                     <li class="nav-item">
                         <a href="{{ url('/about')}}" class="nav-link">About</a>
                     </li>

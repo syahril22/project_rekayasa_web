@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\MahasiswaController;
+use App\Http\Controllers\ProjectController;
 use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
 
@@ -13,6 +14,8 @@ Route::get('/about', function () {
 });
 
 route::get('/profile', [MahasiswaController::class,'index']);
+route::get('/project', [ProjectController::class,'index'])->name('project.index');
+route::get('/project/{id}', [ProjectController::class,'show'])->name('project.show');
 
 
 ?>

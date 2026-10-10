@@ -18,7 +18,7 @@
                         alt="Foto Mahasiswa">
 
                     <h3 class="profile-name">
-                        {{ $mahasiswa['nama'] }}
+                        {{ $mahasiswa -> nama }}
                     </h3>
 
                     <p class="profile-subtitle">
@@ -48,7 +48,7 @@
                                 </span>
 
                                 <span class="info-value">
-                                    {{ $mahasiswa['nim'] }}
+                                    {{ $mahasiswa->nim }}
                                 </span>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
                                 </span>
 
                                 <span class="info-value">
-                                    {{ $mahasiswa['prodi'] }}
+                                    {{ $mahasiswa ->prodi }}
                                 </span>
                             </div>
                         </div>
@@ -74,7 +74,7 @@
                                 </span>
 
                                 <span class="info-value">
-                                    {{ $mahasiswa['kampus'] }}
+                                    {{ $mahasiswa -> kampus }}
                                 </span>
                             </div>
                         </div>
