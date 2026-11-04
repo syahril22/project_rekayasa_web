@@ -19,7 +19,7 @@
 
         <div class="project-detail-header">
             <span class="badge
-                {{ $project->status == 'Selesai'
+                {{ strtolower($project->status ?? '') == 'selesai'
                     ? 'bg-success'
                     : 'bg-warning text-dark' }}">
                 {{ $project->status }}
@@ -38,7 +38,7 @@
         @if ($project->image)
             <div class="project-detail-image-wrapper">
                 <img
-                    src="{{ asset('img/' . $project->image) }}"
+                    src="{{ str_starts_with($project->image, 'projects/') ? asset('storage/' . $project->image) : asset('img/' . $project->image) }}"
                     alt="Gambar {{ $project->title }}"
                     class="project-detail-image"
                 >

@@ -130,10 +130,11 @@
 
    <main class="container mt-5">
     @yield('content')
+
     </main>
 
 
-    @include('partials.footer')
+
 
 </body>
 
