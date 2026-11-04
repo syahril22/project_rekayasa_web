@@ -18,6 +18,9 @@ class MahasiswaSeeder extends Seeder
             'status' => 'Aktif',
         ];
 
-        Mahasiswa::create($mahasiswa);
+        Mahasiswa::firstOrCreate(
+            ['nim' => $mahasiswa['nim']],
+            $mahasiswa
+        );
     }
 }
